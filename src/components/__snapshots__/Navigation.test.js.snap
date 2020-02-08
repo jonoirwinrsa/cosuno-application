@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> should render correctly 1`] = `
+<header
+  class="ant-layout-header"
+>
+  <ul
+    class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+    role="menu"
+    style="line-height: 64px;"
+  >
+    <li
+      class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      role="menuitem"
+      style="display: none;"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="ant-menu-submenu-title"
+      >
+        <span>
+          ···
+        </span>
+        <i
+          class="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      class="ant-menu-item"
+      role="menuitem"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      role="menuitem"
+      style="display: none;"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="ant-menu-submenu-title"
+      >
+        <span>
+          ···
+        </span>
+        <i
+          class="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      class="ant-menu-item"
+      role="menuitem"
+    >
+      <a
+        href="/companies"
+      >
+        Companies
+      </a>
+    </li>
+    <li
+      class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      role="menuitem"
+      style="visibility: hidden; position: absolute; display: none;"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="ant-menu-submenu-title"
+      >
+        <span>
+          ···
+        </span>
+        <i
+          class="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+  </ul>
+</header>
+`;
