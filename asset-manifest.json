@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/cosuno-application/static/js/main.3652bfeb.chunk.js",
+    "main.js.map": "/cosuno-application/static/js/main.3652bfeb.chunk.js.map",
+    "runtime-main.js": "/cosuno-application/static/js/runtime-main.0c95549e.js",
+    "runtime-main.js.map": "/cosuno-application/static/js/runtime-main.0c95549e.js.map",
+    "static/css/2.1e105a3b.chunk.css": "/cosuno-application/static/css/2.1e105a3b.chunk.css",
+    "static/js/2.801e1b28.chunk.js": "/cosuno-application/static/js/2.801e1b28.chunk.js",
+    "static/js/2.801e1b28.chunk.js.map": "/cosuno-application/static/js/2.801e1b28.chunk.js.map",
+    "index.html": "/cosuno-application/index.html",
+    "precache-manifest.c143a7e17e80af34fbdc607ba1906f53.js": "/cosuno-application/precache-manifest.c143a7e17e80af34fbdc607ba1906f53.js",
+    "service-worker.js": "/cosuno-application/service-worker.js",
+    "static/css/2.1e105a3b.chunk.css.map": "/cosuno-application/static/css/2.1e105a3b.chunk.css.map",
+    "static/js/2.801e1b28.chunk.js.LICENSE.txt": "/cosuno-application/static/js/2.801e1b28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c95549e.js",
+    "static/css/2.1e105a3b.chunk.css",
+    "static/js/2.801e1b28.chunk.js",
+    "static/js/main.3652bfeb.chunk.js"
+  ]
+}
