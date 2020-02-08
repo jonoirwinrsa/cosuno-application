@@ -1,17 +1,28 @@
 import { Avatar, Card, Input, List } from "antd";
 import React, { useState } from "react";
-import items from "./companies.json";
+import { COMPANIES_ENDPOINT } from "../constants";
+import { useFetch } from "../hooks/useFetch";
 
 const CompaniesPage = () => {
   const [filterText, setFilterText] = useState("");
 
-  const filteredItems = items.filter(
+  const { data, error, isLoading } = useFetch(COMPANIES_ENDPOINT);
+
+  if (error) {
+    return <div>An error has occurred</div>;
+  }
+
+  if (!data || isLoading) {
+    return <div>Loading</div>;
+  }
+
+  const filteredItems = data.filter(
     item =>
       item.description.toLocaleLowerCase().includes(filterText) ||
       item.name.toLocaleLowerCase().includes(filterText)
   );
 
-  const itemsToDisplay = filterText ? filteredItems : items;
+  const itemsToDisplay = filterText ? filteredItems : data;
 
   return (
     <div style={{ padding: "20px 50px" }}>
