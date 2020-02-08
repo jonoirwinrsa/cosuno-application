@@ -1,4 +1,7 @@
+import Avatar from "antd/es/avatar";
+import Card from "antd/es/card";
 import Input from "antd/es/input";
+import List from "antd/es/list";
 import React, { useState } from "react";
 import items from "./companies.json";
 
@@ -23,15 +26,26 @@ const CompaniesPage = () => {
         onChange={e => setFilterText(e.target.value.toLocaleLowerCase())}
       />
       <hr />
-      {!filteredItems.length && (
-        <div>There are no items to display adjust your filter criteria</div>
-      )}
-      {itemsToDisplay.map(item => (
-        <div key={item.name}>
-          <h3>{item.name}</h3>
-          <p>{item.description}</p>
-        </div>
-      ))}
+      <List
+        grid={{ gutter: 16, column: 3 }}
+        dataSource={itemsToDisplay}
+        renderItem={(item, index) => (
+          <List.Item>
+            <Card
+              style={{ height: 600 }}
+              cover={
+                <img alt={item.name} src={`${item.logo}?image=${index}`} />
+              }
+            >
+              <Card.Meta
+                avatar={<Avatar src={item.logo} />}
+                title={item.name}
+                description={item.description}
+              />
+            </Card>
+          </List.Item>
+        )}
+      />
     </div>
   );
 };
