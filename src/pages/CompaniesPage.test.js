@@ -2,12 +2,12 @@ import { fireEvent, render } from "@testing-library/react";
 import React from "react";
 import FrameworksPage from "./CompaniesPage";
 
-test("filters the list of frameworks by keyword", async () => {
+test("filters the list of companies by keyword", async () => {
   const { queryAllByText, getAllByText, getByPlaceholderText, getByText } = render(
     <FrameworksPage />
   );
 
-  const filterInput = getByPlaceholderText(/filter items/i);
+  const filterInput = getByPlaceholderText(/filter companies/i);
 
   // search for react only get react
   fireEvent.change(filterInput, {
@@ -39,7 +39,7 @@ test("filters the list of frameworks by keyword", async () => {
   expect(laravelItems).toHaveLength(0);
 
   // should find empty state text
-  const emptyStateText = getByText(/no items to display/i)
+  const emptyStateText = getByText(/no data/i)
 
   expect(emptyStateText).toBeTruthy();
 });

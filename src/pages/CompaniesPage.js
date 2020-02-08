@@ -1,7 +1,4 @@
-import Avatar from "antd/es/avatar";
-import Card from "antd/es/card";
-import Input from "antd/es/input";
-import List from "antd/es/list";
+import { Avatar, Card, Input, List } from "antd";
 import React, { useState } from "react";
 import items from "./companies.json";
 
