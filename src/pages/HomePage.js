@@ -27,6 +27,49 @@ const HomePage = () => (
         👍
       </span>
     </p>
+    <p>
+      Check me out on{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://medium.com/@jonoirwin"
+      >
+        Medium
+      </a>
+      ,{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://stackoverflow.com/users/2804256/jonathan-irwin"
+      >
+        Stack overflow
+      </a>
+      ,{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/jonoirwinrsa/"
+      >
+        GitHub
+      </a>
+      ,{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://linkedin.com/in/jono-irwin/"
+      >
+        LinkedIn
+      </a>{" "}
+      and{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/jonoirwin"
+      >
+        Twitter.
+      </a>
+    </p>
+    <hr />
   </div>
 );
 
