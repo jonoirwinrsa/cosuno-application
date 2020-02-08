@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cosuno-application/precache-manifest.c143a7e17e80af34fbdc607ba1906f53.js"
+  "/cosuno-application/precache-manifest.e89e357a2feedda5cab321e5a7bf966f.js"
 );
 
 self.addEventListener('message', (event) => {

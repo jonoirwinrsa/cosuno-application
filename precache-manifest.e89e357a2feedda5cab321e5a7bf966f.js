@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8da161eacd58f51b9d63a5b1253cc463",
+    "revision": "77915900703a833e7db99386a3000097",
     "url": "/cosuno-application/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosuno-application/static/js/2.801e1b28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdd923cc48ea73584b04",
-    "url": "/cosuno-application/static/js/main.3652bfeb.chunk.js"
+    "revision": "7780cd7ecd3304edd100",
+    "url": "/cosuno-application/static/js/main.43328c64.chunk.js"
   },
   {
     "revision": "905efaf641506655da61",
