@@ -70,6 +70,32 @@ const HomePage = () => (
       </a>
     </p>
     <hr />
+    <Typography.Title level={2}>About this submission</Typography.Title>
+    <p>
+      Tests run and pass locally. Ideally they should run on the CI but that is
+      out of scope for this little project.
+    </p>
+    <p>
+      Not all routes are covered by tests but 100% code coverage was not the
+      goal
+    </p>
+    <p>
+      Ant Design none ES bundle was used to make this look good <b>fast</b> but
+      I would normally consider the package weight to be an issue in a real life
+      project
+    </p>
+    <p>
+      Ant Design doesn't look like Cosuno nor does it use similar patterns to
+      the Cosuno stack. A better starter design wise might have been{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://atlaskit.atlassian.com/"
+      >
+        AtlasKit
+      </a>{" "}
+      by Atlassian which looks more like Cosuno from the start
+    </p>
   </div>
 );
 
