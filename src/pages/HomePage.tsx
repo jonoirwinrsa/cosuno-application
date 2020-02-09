@@ -77,12 +77,12 @@ const HomePage: React.FC = () => (
     </p>
     <p>
       Not all routes are covered by tests but 100% code coverage was not the
-      goal
+      goal.
     </p>
     <p>
       Ant Design none ES bundle was used to make this look good <b>fast</b> but
       I would normally consider the package weight to be an issue in a real life
-      project
+      project.
     </p>
     <p>
       Ant Design doesn't look like Cosuno. A better starter might have been{" "}
@@ -93,21 +93,21 @@ const HomePage: React.FC = () => (
       >
         AtlasKit
       </a>{" "}
-      by Atlassian since this matches Cosuno's design better
+      by Atlassian since this matches Cosuno's design better.
     </p>
     <p>
       This project doesn't use many packages from the Cosuno stack. Please don't
       assume that I am not familiar with key packages of your stack such as
       Styled Components, Formik, Apollo and i18next just because they aren't
-      used here
+      used here.
     </p>
     <p>
       While some basic unit tests have been included in this project there are
-      no E2E tests. To improve this project I would add some Cypress tests
+      no E2E tests. To improve this project I would add some Cypress tests.
     </p>
     <p>
       The backend server is as simple as possible on purpose. The requirement is
-      to serve a single JSON file
+      to serve a single JSON file.
     </p>
   </div>
 );
