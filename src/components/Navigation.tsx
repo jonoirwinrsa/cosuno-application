@@ -2,7 +2,7 @@ import { Layout, Menu } from "antd";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navigation = () => (
+const Navigation: React.FC = () => (
   <Layout.Header>
     <Menu mode="horizontal" theme="dark" style={{ lineHeight: "64px" }}>
       <Menu.Item>
